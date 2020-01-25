@@ -35,7 +35,7 @@ Going back to consistency and structure of workflows. Recall that every data sci
 
 ### An overview of the process  
 
-The image below shows how scipy-modeller captures each stage of a data science production cycle from data inpute, proprocessing, and transformation, to data splitting, modelling, validation, and persistence. 
+The image below shows how scipy-modeller captures each stage of a data science production cycle from data inpute, proprocessing, and transformation, to data splitting, modelling, validation, and model persistence for future inference. 
 
 ![](rmpics/2020-01-09-13-15-30.png)
 <br/>  
