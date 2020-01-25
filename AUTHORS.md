@@ -1,4 +1,4 @@
 Nicholas Hopewell, Data Scientist AASC  
-<nicholashopewell@gmail.com>
+<nicholashopewell@gmail.com>  
 <Nicholas.Hopewell@cic.gc.ca>
 
