@@ -1,0 +1,35 @@
+{
+    "odbc": {
+        "database": "PRD_EDW_AAL_DEV_QRY",
+        "dsn": "Netezza AAL"
+    },
+    "project_defaults": {
+        "project_file": "SP_INDIA/",
+        "default_schema": "SP_INDIA",
+        "default_table": "APPS_VIEW_DEV"
+    },
+    "file_paths": {
+        "main_file": "C:/temp/python_files/",
+        "project_file": null,
+        "log_paths": {
+            "log_major": null,
+            "log_file": null,
+            "log": null
+        },
+        "cache_paths": {
+            "cache_major": null,
+            "cache_file": null,
+            "cache": null
+        },
+        "data_paths": {
+            "data_major": "data_store/",
+            "all_data": "all_data/",
+            "training_data": "training_data/",
+            "validation_data": "validation_data/",
+            "testing_data": "test_data/",
+            "transformed_data": "transform_data"
+        },
+        "model_major": "model_output/",
+        "master_major": "project_master/"
+    }
+}
