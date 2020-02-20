@@ -1,12 +1,12 @@
 {
     "odbc": {
-        "database": "PRD_EDW_AAL_DEV_QRY",
-        "dsn": "Netezza AAL"
+        "database": null,
+        "dsn": null
     },
     "project_defaults": {
-        "project_file": "SP_INDIA/",
-        "default_schema": "SP_INDIA",
-        "default_table": "APPS_VIEW_DEV"
+        "project_file": null,
+        "default_schema": null,
+        "default_table": null
     },
     "file_paths": {
         "main_file": "C:/temp/python_files/",
