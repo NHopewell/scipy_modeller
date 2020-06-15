@@ -42,6 +42,7 @@ class SPIndianHistoricFlagsGenerator(BaseEstimator, TransformerMixin):
         return self
 
     def transform(self, X, y=None):
+        ###
         for k,v in self.to_keep.items():
             X.set_to_flag(k, value=v, check='equality', 
             drop_original=True)

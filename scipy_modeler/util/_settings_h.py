@@ -143,7 +143,10 @@ def assert_config_defaults(config_json: Nested_str_dict,
     for arg in args:
         if isinstance(config_json[arg], dict):
             if not all(config_json[arg].values()):
-                raise ValueError(_set_format_message(arg))
+                if arg == "file_paths":
+                    pass
+                else:
+                    raise ValueError(_set_format_message(arg))
         else:
             if not config_json[arg]:
                 raise ValueError(_set_format_message(arg))

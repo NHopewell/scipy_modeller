@@ -13,13 +13,20 @@ import scipy_modeler.util._settings_h as settings
 #from dotenv import load_dotenv
 #load_dotenv()
 
-config_data = settings.load_json_config("config.json")
+####### TODO: CHANGE THIS BACK TO SIMPLY "config.json"
+try:
+    config_data = settings.load_json_config("config.json")
+except:
+    try:
+        config_data = settings.load_json_config("C:\\Users\\jason.conte\\Desktop\\AASC\\AASC\\scipy_modeller\\config.json")
+    except:
+        config_data = settings.load_json_config("C:\\Users\\Nicholas.Hopewell\\Desktop\\AASC\\scipy_modeller\\config.json")
+
 today, today_time = settings.get_date_time()
 
 # assert user has not left these keys null in config file
 settings.assert_config_defaults(config_data, 
-    "odbc", "project_defaults", "data_paths", 
-    "model_major", "master_major"
+    "odbc", "project_defaults", "file_paths"
 )
 
 # extract config settigs from json
