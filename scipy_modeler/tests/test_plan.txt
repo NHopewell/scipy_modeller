@@ -1,0 +1,25 @@
+Overview: 
+---------
+    1. Test table struc well - use get_table_fields to help testing.  
+
+    2. Test database (just the basics its not very complex).  
+
+    3. Test read in using a table struc a) gives you what you think it will? and b) matches spss modeller (with the knowledge 
+    that some of the SPSS data types might be innacurate and later corrected by type nodes).  
+
+    4. Test proprocessing API (table.py and table_h.py) - following along with the SPSS modeler stream we use for
+    testing (some nodes, like type nodes, dont matter. The distinct, generate flag, join, filter and any other main 
+    nodes matter). IGNORE THE MODELLING AND DATA SEGREDATION NODE AT THE END OF THE SPSS STREAM. 
+    Are the helper functions in table_h working as we think tey are??  
+
+Specifics:
+----------
+Generate Struc
+    See default struc when nothing but schema and table is passed  
+    Add non-int column to int list, non-float column to float list, etc.  
+    Change dt naming convention to something else that would capture a different, non-date column  
+    See that all columns were classified as they should be
+
+
+
+.... continue to fill out thoughts...
