@@ -1,5 +1,5 @@
 The primary contact for this for this project is Nick Hopewell  
-<Nicholas.Hopewell@cic.gc.ca>    
+<nicholashopewell@gmail.com>    
 
 
 # scipy-modeler  
