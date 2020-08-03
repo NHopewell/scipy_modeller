@@ -1,6 +1,6 @@
 # Contributing Guidelines  
 
-## Coding Style 
+## Coding Style by Nick Hopewell
 ---  
 I want this code to be readable, easy to maintain, and follow best practices widely established in the Python community where possible. Have I done this perfectly? No. But I try. Please try.   
 * **Proper naming of functions, classes, and variables:** help your reader by using descriptive names that can help you to remove redundant comments.  
