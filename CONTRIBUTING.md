@@ -16,8 +16,7 @@ I want this code to be readable, easy to maintain, and follow best practices wid
 * Absultely **use Python type hints** for function parameters and return values.  
 * **Use comprehensions instead of map(), filter(), reduce() with lambdas**. This is very important and a standard in the Python community for code readbility.  
 * If you need a third party library not in the **requirements.txt** file, please add it to the requirements.txt file.  
-* Strictly use **snake_case in file directory** for parsing reasons.   
-* **Make sure your code works before committing it**.  
+* Strictly use **snake_case in file directory** for parsing reasons.     
 * Try to **write functions and methods that do one thing only** - this is by far the most important rule. Refactor functions that do more than one thing.  
 
 *See this Python implementation of Bob Martin's 'Clean Code' for basic prinicples of clean code:* **https://github.com/zedr/clean-code-python**  
