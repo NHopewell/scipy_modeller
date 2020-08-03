@@ -46,13 +46,13 @@ Going back to consistency and structure of workflows. Recall that every data sci
 
 The image below shows how scipy-modeller captures each stage of a data science production cycle from data read-in, preprocessing, and transformation, to data splitting, modelling, validation, and persistence. 
 
-![](.rmpics/2020-01-09-13-15-30-v2.png)
+![](rmpics/2020-01-09-13-15-30-v2.png)
 <br/>  
 
 As seen above in the transform data step, the "Column transformer pipeline" step requires a better visualization to capture the process. This process can be seen below.   
 <br/>  
 
-![](.rmpics/2020-01-09-13-18-44.png)  
+![](rmpics/2020-01-09-13-18-44.png)  
 
 This transformation process builds small transformers based on datatypes it discovers in a passed table (which has already been preprocessed with the preprocessing API) and builds those transformers into a larger transformation pipeline.  
 
@@ -64,7 +64,7 @@ See Jupyter Notebook exampled to understand how these strucs are used.
 Using these strucs is not only clever and efficient (saves many steps one might need to repeat every time she/he reads data into a local dataframe), they greatly reduce the memory footprint of your data. Below are some example tests showing the memory savings using this approach versus a standard 'read-in, filter and format after' approach.
   
 
-![](.rmpics/2020-01-15-10-48-51.png)
+![](rmpics/2020-01-15-10-48-51.png)
 
 
 
