@@ -46,7 +46,7 @@ Going back to consistency and structure of workflows. Recall that every data sci
 
 The image below shows how scipy-modeller captures each stage of a data science production cycle from data read-in, preprocessing, and transformation, to data splitting, modelling, validation, and persistence. 
 
-![](rmpics/2020-01-09-13-15-30-v2.png)
+![](rmpics/2020-01-09-13-15-30-v2.PNG)
 <br/>  
 
 As seen above in the transform data step, the "Column transformer pipeline" step requires a better visualization to capture the process. This process can be seen below.   
