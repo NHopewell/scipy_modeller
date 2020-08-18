@@ -1,7 +1,3 @@
-The primary contact for this for this project is Nick Hopewell  
-<nicholashopewell@gmail.com>    
-
-
 # scipy-modeller  
 --- 
 An overview of some applications and goals of scipy-modeller
